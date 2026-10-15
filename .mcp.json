@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-account-hiring-watch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-account-hiring-watch"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
