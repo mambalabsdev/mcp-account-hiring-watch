@@ -206,7 +206,7 @@ server.registerTool(
       "Watch a list of company domains and get back only what changed on their job boards since the last run with the same watch name: new, closed, and reposted postings, read live from 17 job boards including Greenhouse, Lever, Ashby, and Workday. Each change row carries the full job description, a stable posting key, and the board it came from; each company also gets a summary row with open postings and 30 day hiring velocity. The first run for a watch sets the baseline, and its rows are marked is_backfill and never charged. Optional signed webhook delivery. A run that does not succeed is returned as an error with its run ID. Read-only on the boards; requires an APIFY_TOKEN and consumes Apify credits per change returned.",
     annotations: {
       title: "Watch account hiring",
-      readOnlyHint: true,
+      readOnlyHint: false,
       destructiveHint: false,
       idempotentHint: false,
       openWorldHint: true,
